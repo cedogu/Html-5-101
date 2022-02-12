@@ -57,3 +57,16 @@ tr:nth-child(even){
 table,th,td{
     border: 1px solid black;
 }
+
+input[type=text],[type=password] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    background-color: gray;
+}
+
+input[type=text]:focus,[type=password]:focus{
+    background-color: lightblue;
+}
