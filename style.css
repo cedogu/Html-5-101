@@ -70,3 +70,17 @@ input[type=text],[type=password] {
 input[type=text]:focus,[type=password]:focus{
     background-color: lightblue;
 }
+.myClass{
+    color: red;
+    background-color: blue;
+}
+
+p.someClass{
+    color: red;
+    background-color: white;
+}
+#email{
+    background-color: yellow;
+}
+
+/* //class oluşturunca onu . ile başlatırız */
