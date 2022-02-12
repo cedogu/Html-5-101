@@ -29,3 +29,31 @@ div{
 
     /* margin- bulundugu ortamı padding ise ilgili elementi kapsar */
 }
+table{
+    border-collapse: collapse;
+    width: 400px;
+    
+   
+}
+th{
+    text-align: left;
+}
+td{
+    height: 30px;
+    vertical-align:auto;
+    text-align: center;
+    padding-left: 10px;
+}
+tr:hover{
+background-color: brown;
+}   
+tr:nth-child(even){
+    background-color: wheat;
+    }
+    tr:nth-child(odd){
+        background-color: yellow;
+     }   
+     /* //böyle bir durumda hover event'i çalışmaz. o yüzden nth child yaparken hover'ı kapatalım ya da tam tersi*/ 
+table,th,td{
+    border: 1px solid black;
+}
