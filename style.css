@@ -1,0 +1,31 @@
+h1{
+    color: green;
+    background-color: blue;
+}
+
+h2{
+    color: snow;
+}
+body{
+    background-color: purple;
+}
+
+ul{
+    color: white;
+}
+ol{
+    color:beige;
+}
+div{
+    border:1px solid ;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+
+    /* margin- bulundugu ortamı padding ise ilgili elementi kapsar */
+}
